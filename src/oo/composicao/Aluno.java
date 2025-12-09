@@ -15,4 +15,9 @@ public class Aluno {
         this.cursos.add(curso);
         curso.alunos.add(this);
     }
+
+    @Override
+    public String toString() {
+        return nome;
+    }
 }

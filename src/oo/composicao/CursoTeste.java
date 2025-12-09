@@ -25,5 +25,8 @@ public class CursoTeste {
             System.out.println("Aluno matriculado: " + aluno.nome);
             System.out.println();
         }
+
+        System.out.println(aluno1.cursos.get(0).alunos);
+
     }
 }
