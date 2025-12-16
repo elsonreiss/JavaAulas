@@ -6,10 +6,12 @@ import java.util.List;
 public class Cliente {
 
     String nome;
+    int idade;
     List<Compra> compras = new ArrayList<>();
 
-    Cliente(String nome) {
+    Cliente(String nome, int idade) {
         this.nome = nome;
+        this.idade = idade;
     }
 
     void adicionarCompra(Compra compra) {
