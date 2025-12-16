@@ -2,7 +2,7 @@ package oo.composicao.desafio;
 
 public class ClienteTeste {
     public static void main(String[] args) {
-        Cliente c1 = new Cliente("reis",-1);
+        Cliente c1 = new Cliente("reis",4);
 
         Compra cp = new Compra();
         cp.adicionarItem("caneta",12.0,3);

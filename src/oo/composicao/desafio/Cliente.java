@@ -27,9 +27,12 @@ public class Cliente {
     }
 
     public void setIdade(int idade) {
-        if (idade > 0) {
-            this.idade = idade;
+        if (idade <= 0) {
+            throw new IllegalArgumentException("A idade deve ser maior que zero!");// Lançando uma Exceção (Profissional)
+            //Esta é a prática padrão no mercado. Se o valor for inválido, o programa gera um erro específico que obriga quem está usando a classe a corrigir o problema.
+            //System.out.println("A idade deve ser maior que zero!");
         }
+        this.idade = idade;
     }
 
     public List<Compra> getCompras() {
