@@ -15,5 +15,7 @@ public class CompraTeste {
         double total = c1.itens.get(0).compra.itens.get(1).compra.valorTotal();
         System.out.println(total);
 
+        System.out.println();
+
     }
 }
