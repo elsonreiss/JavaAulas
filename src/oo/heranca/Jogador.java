@@ -27,7 +27,7 @@ public class Jogador {
         int deltaN = Math.abs(n - oponente.n);
 
         if(deltaS == 0 && deltaN == 1) {
-            oponente.vida -= vida;
+            oponente.vida -= 10;
             return true;
         } else if (deltaS == 1 && deltaN == 0) {
             oponente.vida -= 10;
