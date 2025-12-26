@@ -2,6 +2,10 @@ package oo.heranca;
 
 public class Monstro extends Jogador{
 
+    Monstro() {
+        super(0,0);
+    }
+
     boolean atacar(Jogador oponente) {
         int deltaS = Math.abs(s - oponente.s);
         int deltaN = Math.abs(n - oponente.n);

@@ -7,6 +7,11 @@ public class Jogador {
     int o;
     int vida = 100;
 
+    Jogador(int s, int n) {
+        this.s = s;
+        this.n = n;
+    }
+
   //  boolean andar(Direcao direcao) {
       //  if(direcao == Direcao.NORTE) {
        //     n++;
