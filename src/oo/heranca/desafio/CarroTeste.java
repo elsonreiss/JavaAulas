@@ -9,5 +9,6 @@ public class CarroTeste {
         carro1.freiar();
         carro1.freiar();
         System.out.println(carro1.velocidade);
+        System.out.println();
     }
 }
