@@ -22,5 +22,6 @@ public class Jogo {
         System.out.println("Vida mosntro => "+jogador2.vida);
         System.out.println();
         System.out.println();
+        System.out.println();
     }
 }
