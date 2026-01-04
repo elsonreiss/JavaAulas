@@ -1,9 +1,9 @@
 package lambdas;
 
-public class Soma implements Calculo {
+public class Multiplicar implements Calculo {
 
     @Override
     public double executar(double a, double b) {
-        return a + b;
+        return a * b;
     }
 }
