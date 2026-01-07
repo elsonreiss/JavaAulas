@@ -6,6 +6,8 @@ public class CalculoTeste {
         Calculo c1 = new Soma();
         System.out.println(c1.executar(2,5));
 
+        System.out.println();
+
         c1 = new Multiplicar();
         System.out.println(c1.executar(2,5));
 
