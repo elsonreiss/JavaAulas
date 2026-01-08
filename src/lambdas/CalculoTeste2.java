@@ -12,6 +12,7 @@ public class CalculoTeste2 {
         System.out.println(calc.executar(5,5));
 
         System.out.println();
+        System.out.println();
 
     }
 }
