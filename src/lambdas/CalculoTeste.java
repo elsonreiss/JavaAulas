@@ -10,15 +10,5 @@ public class CalculoTeste {
 
         c1 = new Multiplicar();
         System.out.println(c1.executar(2,5));
-
-        System.out.println();
-
-
-
-
-
-
-
-
     }
 }
