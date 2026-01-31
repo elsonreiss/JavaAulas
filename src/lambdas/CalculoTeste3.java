@@ -18,7 +18,5 @@ public class CalculoTeste3 {
         System.out.println(calc2.apply(2,5));
 
         System.out.println();
-        System.out.println();
-        System.out.println();
     }
 }
