@@ -16,7 +16,7 @@ public class CalculoTeste3 {
 
         calc2 = (x,y) -> x * y;
         System.out.println(calc2.apply(2,5));
-        System.out.println();
+
         System.out.println();
     }
 }
