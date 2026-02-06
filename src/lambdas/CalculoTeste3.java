@@ -19,5 +19,6 @@ public class CalculoTeste3 {
 
         System.out.println();
         System.out.println();
+        s
     }
 }
